@@ -14,7 +14,7 @@ theme:
     - tabs
   
 plugins:
-  - search
+  - search 
 
 nav:
   - Начало: index.md
@@ -25,6 +25,11 @@ nav:
 
 markdown_extensions:
   - footnotes
+  - attr_list
+  - md_in_html
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
 
 extra:
   social:
