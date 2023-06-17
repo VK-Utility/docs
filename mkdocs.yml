@@ -2,26 +2,52 @@ site_name: VK Utility
 
 theme:
   name: material
+  custom_dir: docs/overrides
   palette:
-    scheme: default
-    primary: blue
-    accent: deep purple
+    - scheme: default
+      primary: blue
+      accent: deep purple
+      toggle:
+        icon: material/brightness-7 
+        name: Включить тёмную тему
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Включить светлую тему
   font:
     text: Roboto
   language: ru
   features:
     - instant
     - tabs
+    - navigation.instant
+    - navigation.tracking
+    - header.autohide
+    - announce.dismiss
   
 plugins:
   - search 
 
 nav:
-  - Начало: index.md
+  - Добро пожаловать в VK Utility!: index.md
+  - Обзор возможностей: review.md
   - Установка программы: install.md
   - Первый запуск: first-launch.md
-  - 'Документация':
-    - guide/filtrator.md
+  - Что дальше?: whats-next.md
+  - Документация:
+    - Парсер:
+      - Участники группы: guide/filtrator.md
+      - Поиск людей: guide/filtrator.md
+      - Поиск групп: guide/filtrator.md
+      - Парсер админов: guide/filtrator.md
+      - Чекер ID пользователей: guide/filtrator.md
+      - Друзья пользователей: guide/filtrator.md
+      - Генератор ID: guide/filtrator.md
+      - Подписки пользователей: guide/filtrator.md
+      - Проверка ссылок на бан: guide/filtrator.md
+      - Экспорт лайкнувших: guide/filtrator.md
+      - Пересечение аудитории: guide/filtrator.md
+    - Фильтратор: guide/filtrator.md
 
 markdown_extensions:
   - footnotes
@@ -30,9 +56,15 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
 
 extra:
   social:
     - icon: fontawesome/brands/telegram
-      # link: https://t.me/vkwave
+      link: https://t.me/iamutility
       name: 'Поддержка в Telegram'
+
+extra_css:
+  - stylesheets/extra.css
