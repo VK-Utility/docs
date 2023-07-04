@@ -4,16 +4,7 @@ theme:
   name: material
   custom_dir: docs/overrides
   palette:
-    - scheme: default
-      primary: blue
-      accent: deep purple
-      toggle:
-        icon: material/brightness-7 
-        name: Включить тёмную тему
-    - scheme: slate
-      toggle:
-        icon: material/brightness-4
-        name: Включить светлую тему
+      primary: custom
   font:
     text: Roboto
   language: ru
@@ -27,6 +18,9 @@ theme:
   
 plugins:
   - search 
+  - social:
+      cards_layout_options:
+        background_color: "#0077FF"
 
 nav:
   - Добро пожаловать в VK Utility!: index.md
