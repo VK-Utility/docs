@@ -6,13 +6,15 @@ theme:
   palette:
       primary: custom
   font:
-    text: Roboto
+    text: Rubik
   language: ru
   features:
-    - instant
-    - tabs
+    - navigation.tabs
     - navigation.instant
     - navigation.tracking
+    - navigation.top
+    - navigation.footer
+    - navigation.indexes
     - header.autohide
     - announce.dismiss
   
@@ -56,6 +58,9 @@ markdown_extensions:
 
 extra:
   social:
+    - icon: fontawesome/brands/vk
+      link: https://vk.com/vkutility
+      name: 'Сообщество в VK'
     - icon: fontawesome/brands/telegram
       link: https://t.me/iamutility
       name: 'Поддержка в Telegram'
