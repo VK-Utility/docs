@@ -1,4 +1,4 @@
-site_name: VK Utility
+site_name: VK Utility - парсер VK
 
 theme:
   name: material
@@ -6,7 +6,7 @@ theme:
   palette:
       primary: custom
   font:
-    text: Rubik
+    text: Roboto
   language: ru
   features:
     - navigation.tabs
@@ -14,7 +14,7 @@ theme:
     - navigation.tracking
     - navigation.top
     - navigation.footer
-    - navigation.indexes
+    - toc.integrate 
     - header.autohide
     - announce.dismiss
   
