@@ -1,4 +1,7 @@
 site_name: VK Utility - парсер VK
+site_description: >-
+  Многофункциональный парсер VK. Бесплатный навсегда.
+  Найдите свою целевую аудиторию в считанные минуты.
 
 theme:
   name: material
@@ -9,17 +12,21 @@ theme:
     text: Roboto
   language: ru
   features:
-    - navigation.tabs
+    - navigation.tabs    
     - navigation.instant
     - navigation.tracking
     - navigation.top
     - navigation.footer
-    - toc.integrate 
+    - navigation.indexes
+    - navigation.expand
+    - navigation.sections
+    - toc.follow
     - header.autohide
     - announce.dismiss
+    - search.share
   
 plugins:
-  - search 
+  - search
   - social:
       cards_layout_options:
         background_color: "#0077FF"
@@ -31,25 +38,32 @@ nav:
   - Первый запуск: first-launch.md
   - Что дальше?: whats-next.md
   - Документация:
+    - docs/index.md
     - Парсер:
-      - Участники группы: guide/filtrator.md
-      - Поиск людей: guide/filtrator.md
-      - Поиск групп: guide/filtrator.md
-      - Парсер админов: guide/filtrator.md
-      - Чекер ID пользователей: guide/filtrator.md
-      - Друзья пользователей: guide/filtrator.md
-      - Генератор ID: guide/filtrator.md
-      - Подписки пользователей: guide/filtrator.md
-      - Проверка ссылок на бан: guide/filtrator.md
-      - Экспорт лайкнувших: guide/filtrator.md
-      - Пересечение аудитории: guide/filtrator.md
-    - Фильтратор: guide/filtrator.md
+      - docs/parser/index.md
+      - Участники группы: docs/parser/group-members.md
+      - Поиск людей: docs/parser/search-people.md
+      - Поиск групп: docs/parser/search-groups.md
+      - Парсер админов: docs/parser/admins-parser.md
+      - Чекер ID пользователей: docs/parser/id-checker.md
+      - Друзья пользователей: docs/parser/users-friends.md
+      - Генератор ID: docs/parser/id-generator.md
+      - Подписки пользователей: docs/parser/users-subscriptions.md
+      - Проверка ссылок на бан: docs/parser/check-links-for-ban.md
+      - Экспорт лайкнувших: docs/parser/export-likers.md
+      - Пересечение аудитории: docs/parser/audience-intersection.md
+    - Фильтратор: docs/filtrator/index.md
+    
 
 markdown_extensions:
-  - footnotes
-  - attr_list
-  - md_in_html
   - admonition
+  - attr_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+      permalink_title: On this page
   - pymdownx.details
   - pymdownx.superfences
   - pymdownx.emoji:
@@ -64,6 +78,7 @@ extra:
     - icon: fontawesome/brands/telegram
       link: https://t.me/iamutility
       name: 'Поддержка в Telegram'
+
 
 extra_css:
   - stylesheets/extra.css
