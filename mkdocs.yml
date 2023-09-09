@@ -32,10 +32,11 @@ plugins:
         background_color: "#0077FF"
 
 nav:
-  - Добро пожаловать в VK Utility!: index.md
+  - Главная: index.md
   - Обзор возможностей: review.md
-  - Установка программы: install.md
-  - Первый запуск: first-launch.md
+  - Установка программы:
+    - setup-and-launch/index.md
+    - Первый запуск: setup-and-launch/first-launch.md
   - Что дальше?: whats-next.md
   - Документация:
     - docs/index.md
