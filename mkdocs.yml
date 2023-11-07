@@ -1,4 +1,4 @@
-site_name: VK Utility - парсер VK
+site_name: PROPARS - парсер VK
 site_description: >-
   Многофункциональный парсер VK. Бесплатный навсегда.
   Найдите свою целевую аудиторию в считанные минуты.
@@ -63,8 +63,10 @@ markdown_extensions:
   - md_in_html
   - tables
   - toc:
-      permalink: true
-      permalink_title: On this page
+      permalink: '^'
+      #slugify: !!python/object/apply:pymdownx.slugs.slugify
+      #  kwds:
+      #    case: lower
   - pymdownx.details
   - pymdownx.superfences
   - pymdownx.emoji:
