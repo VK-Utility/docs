@@ -53,7 +53,9 @@ nav:
       - Проверка ссылок на бан: docs/parser/check-links-for-ban.md
       - Экспорт лайкнувших: docs/parser/export-likers.md
       - Пересечение аудитории: docs/parser/audience-intersection.md
-    - Фильтратор: docs/filtrator/index.md
+    - Фильтратор:
+      - docs/filtrator/index.md
+      - Запуск Фильтратора: docs/filtrator/launch.md
     
 
 markdown_extensions:
