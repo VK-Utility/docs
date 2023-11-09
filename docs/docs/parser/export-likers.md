@@ -15,7 +15,7 @@
 !!! info "Таблица ссылается на скриншот из предыдущего раздела"
     
 
-<table >
+<table>
   <thead>
     <tr style="background-color:rgb(241, 242, 244)">
       <th style="width:30%">Название</th>
