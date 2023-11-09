@@ -53,7 +53,9 @@ nav:
       - Проверка ссылок на бан: docs/parser/check-links-for-ban.md
       - Экспорт лайкнувших: docs/parser/export-likers.md
       - Пересечение аудитории: docs/parser/audience-intersection.md
-    - Фильтратор: docs/filtrator/index.md
+    - Фильтратор:
+      - docs/filtrator/index.md
+      - Запуск Фильтратора: docs/filtrator/launch.md
     
 
 markdown_extensions:
@@ -79,8 +81,14 @@ extra:
       link: https://vk.com/vkutility
       name: 'Сообщество в VK'
     - icon: fontawesome/brands/telegram
-      link: https://t.me/iamutility
-      name: 'Поддержка в Telegram'
+      link: https://t.me/propars_ru
+      name: 'Канал в Telegram'
+    #- icon: fontawesome/brands/telegram
+      #link: https://t.me/propars_support
+      #name: 'Поддержка в Telegram'
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/PBZ4ssYy
+      name: 'Discord'
 
 
 extra_css:
