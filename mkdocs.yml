@@ -2,6 +2,7 @@ site_name: PROPARS - парсер VK
 site_description: >-
   Многофункциональный парсер VK. Бесплатный навсегда.
   Найдите свою целевую аудиторию в считанные минуты.
+copyright: PROPARS 2023
 
 theme:
   name: material
@@ -29,7 +30,7 @@ plugins:
   - search
   - social:
       cards_layout_options:
-        background_color: "#0077FF"
+        background_color: "#4181E2"
 
 nav:
   - Главная: index.md
@@ -74,6 +75,7 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.critic
 
 extra:
   social:

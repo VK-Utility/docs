@@ -1,14 +1,6 @@
- .vk {
-    color: #0077FF;
-} 
-
 :root {
-  --md-primary-fg-color: #0077FF;
+  --md-primary-fg-color: #6389A8;
 }
-
-
-
-
 
 @keyframes heart {
   0%,40%,80%,100% {
@@ -219,11 +211,11 @@
 } */
 
 .mdx-container {
-  background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1123 258'><path d='M1124,2c0,0 0,256 0,256l-1125,0l0,-48c0,0 16,5 55,5c116,0 197,-92 325,-92c121,0 114,46 254,46c140,0 214,-167 572,-166Z' style='fill: hsla(0, 0%, 100%, 1)' /></svg>") no-repeat bottom, linear-gradient(to bottom, var(--md-primary-fg-color), hsl(280, 67%, 55%) 99%, var(--md-default-bg-color) 99%);
+  background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1123 258'><path d='M1124,2c0,0 0,256 0,256l-1125,0l0,-48c0,0 16,5 55,5c116,0 197,-92 325,-92c121,0 114,46 254,46c140,0 214,-167 572,-166Z' style='fill: hsla(0, 0%, 100%, 1)' /></svg>") no-repeat bottom, linear-gradient(to bottom, var(--md-primary-fg-color), #4181E2);
 }
 
  [data-md-color-scheme=slate] .mdx-container {
-  background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1123 258'><path d='M1124,2c0,0 0,256 0,256l-1125,0l0,-48c0,0 16,5 55,5c116,0 197,-92 325,-92c121,0 114,46 254,46c140,0 214,-167 572,-166Z' style='fill: hsla(232, 15%, 21%, 1)' /></svg>") no-repeat bottom, linear-gradient(to bottom, var(--md-primary-fg-color), hsl(280, 67%, 55%) 99%, var(--md-default-bg-color) 99%);
+  background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1123 258'><path d='M1124,2c0,0 0,256 0,256l-1125,0l0,-48c0,0 16,5 55,5c116,0 197,-92 325,-92c121,0 114,46 254,46c140,0 214,-167 572,-166Z' style='fill: hsla(232, 15%, 21%, 1)' /></svg>") no-repeat bottom, linear-gradient(to bottom, var(--md-primary-fg-color), #4181E2);
 }
 
 .mdx-hero {
@@ -264,20 +256,16 @@
     transform: translateX(8rem);
   }
 }
-.mdx-hero .md-button {
-  margin-top: 0.5rem;
-  margin-right: 0.5rem;
-  color: var(--md-primary-bg-color);
+
+.mdx-hero .md-button--primary {
+  color: white;
+  background-color: #FFC000;
+  border-color: #FFC000;
 }
 .mdx-hero .md-button:focus,.mdx-hero .md-button:hover {
-  color: var(--md-accent-bg-color);
-  background-color: var(--md-accent-fg-color);
-  border-color: var(--md-accent-fg-color);
-}
-.mdx-hero .md-button--primary {
-  color: hsl(280, 37%, 48%);
-  background-color: var(--md-primary-bg-color);
-  border-color: var(--md-primary-bg-color);
+  color: white;
+  background-color: #FFB000;
+  border-color: #FFB000;
 }
 
 .md-typeset .mdx-iconsearch {
