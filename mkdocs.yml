@@ -25,6 +25,7 @@ theme:
     - header.autohide
     - announce.dismiss
     - search.share
+    - content.code.copy
   
 plugins:
   - search
