@@ -36,11 +36,10 @@ plugins:
 nav:
   - Главная: index.md
   - Обзор возможностей: review.md
-  - Установка программы:
-    - setup-and-launch/index.md
+  - Начало работы:
+    - Установка PROPARS: setup-and-launch/install.md
     - Первый запуск: setup-and-launch/first-launch.md
-  - Что дальше?: whats-next.md
-  - Документация:
+  - Руководство пользователя:
     - docs/index.md
     - Парсер:
       - docs/parser/index.md
@@ -58,6 +57,7 @@ nav:
     - Фильтратор:
       - docs/filtrator/index.md
       - Запуск Фильтратора: docs/filtrator/launch.md
+  # - Связь с нами: whats-next.md
     
 
 markdown_extensions:
