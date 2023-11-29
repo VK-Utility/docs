@@ -37,8 +37,8 @@ nav:
   - Главная: index.md
   - Обзор возможностей: review.md
   - Начало работы:
-    - Установка PROPARS: setup-and-launch/install.md
-    - Первый запуск: setup-and-launch/first-launch.md
+    - Установка и активация: setup-and-launch/install.md
+    - Запуск первого задания: setup-and-launch/first-launch.md
   - Руководство пользователя:
     - docs/index.md
     - Парсер:
@@ -73,6 +73,8 @@ markdown_extensions:
       #    case: lower
   - pymdownx.details
   - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
