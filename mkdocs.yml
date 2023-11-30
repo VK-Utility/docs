@@ -2,13 +2,15 @@ site_name: PROPARS - парсер VK
 site_description: >-
   Многофункциональный парсер VK. Бесплатный навсегда.
   Найдите свою целевую аудиторию в считанные минуты.
-copyright: PROPARS 2023
+site_url: https://vktuility.ru
+copyright: ""
 
 theme:
   name: material
   custom_dir: docs/overrides
+  favicon: assets/logo.png
   palette:
-      primary: custom
+      primary: custom      
   font:
     text: Roboto
   language: ru
@@ -31,7 +33,7 @@ plugins:
   - search
   - social:
       cards_layout_options:
-        background_color: "#4181E2"
+        background_color: "#6389A8"
 
 nav:
   - Главная: index.md
@@ -81,6 +83,7 @@ markdown_extensions:
   - pymdownx.critic
 
 extra:
+  generator: false
   social:
     - icon: fontawesome/brands/vk
       link: https://vk.com/vkutility
