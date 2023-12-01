@@ -83,7 +83,7 @@ markdown_extensions:
   - pymdownx.critic
 
 extra:
-  generator: false
+  generator: true
   social:
     - icon: fontawesome/brands/vk
       link: https://vk.com/propars
