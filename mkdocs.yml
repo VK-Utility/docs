@@ -59,7 +59,7 @@ nav:
     - Фильтратор:
       - docs/filtrator/index.md
       - Запуск Фильтратора: docs/filtrator/launch.md
-  # - Связь с нами: whats-next.md
+  - Связаться с нами: support.md
     
 
 markdown_extensions:
@@ -86,7 +86,7 @@ extra:
   generator: false
   social:
     - icon: fontawesome/brands/vk
-      link: https://vk.com/vkutility
+      link: https://vk.com/propars
       name: 'Сообщество в VK'
     - icon: fontawesome/brands/telegram
       link: https://t.me/propars_ru
