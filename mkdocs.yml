@@ -16,7 +16,6 @@ theme:
   language: ru
   features:
     - navigation.tabs    
-    - navigation.instant
     - navigation.tracking
     - navigation.top
     - navigation.footer
