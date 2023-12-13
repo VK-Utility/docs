@@ -82,7 +82,7 @@
 
 ![](../../img/parser/search-groups/interface.png)
 
-!!! info "Таблица ссылается на скриншот выше"
+!!! info "Таблица ссылается на скриншот выше."
 
 <table>
   <thead>
