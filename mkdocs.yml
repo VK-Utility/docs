@@ -20,7 +20,6 @@ theme:
     - navigation.top
     - navigation.footer
     - navigation.indexes
-    - navigation.expand
     - navigation.sections
     - toc.follow
     - header.autohide
@@ -50,11 +49,12 @@ nav:
       - Парсер админов: docs/parser/admins-parser.md
       - Чекер ID пользователей: docs/parser/id-checker.md
       - Друзья пользователей: docs/parser/users-friends.md
-      - Генератор ID: docs/parser/id-generator.md
       - Подписки пользователей: docs/parser/users-subscriptions.md
-      - Проверка ссылок на бан: docs/parser/check-links-for-ban.md
       - Экспорт лайкнувших: docs/parser/export-likers.md
       - Пересечение аудитории: docs/parser/audience-intersection.md
+      - Инструменты:
+        - Генератор ID: docs/parser/id-generator.md
+        - Проверка ссылок на бан: docs/parser/check-links-for-ban.md
     - Фильтратор:
       - docs/filtrator/index.md
       - Запуск Фильтратора: docs/filtrator/launch.md
