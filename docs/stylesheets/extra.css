@@ -15,15 +15,13 @@
   border-color: transparent;
 }
 
-.mdx-hero .md-button--primary,
-.md-content .md-button--primary {
+.md-typeset .md-button--primary {
   color: white;
   background-color: #FFC000;
   border-color: #FFC000;
 }
 
-.mdx-hero .md-button--primary:focus,
-.mdx-hero .md-button--primary:hover {
+.md-typeset .md-button--primary:hover {
   color: white;
   background-color: #FFB000;
   border-color: #FFB000;

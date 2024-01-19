@@ -1,22 +1,27 @@
+---
+template: install.html
+---
 
 <div style="text-align: justify">
-  <p>Сейчас мы поможем вам установить и активировать PROPARS.</p>
-  <p><b>Не переживайте!</b> Это займет не более 3 минут! Готовы?</p>
+  <p>Для работы с PROPARS вам необходимо установить его на ваш компьютер. Процесс установки займет у вас не более 3 минут.</p>
 </div>
 
-## Требования к системе
-
-- 64-битная версия Windows 7 и выше
-- Минимум 2 ГБ оперативной памяти
-- Доступ в интернет
+## Установка PROPARS
 
 <div style="text-align: justify">
   <p>
-    Для наиболее быстрого и простого процесса установки скачайте установщик и запустите его.
+    PROPARS доступен только для операционной системы <b>Windows 7 и выше</b>. Для наиболее быстрого и простого процесса установки <b>скачайте установщик и запустите его</b>.
   </p>
 </div>
 
-[:fontawesome-solid-download: Скачать установщик PROPARS :fontawesome-solid-download:](https://soft-issue.com/vku2-version/setups/propars-setup.exe){ .md-button }
+[Скачать установщик PROPARS :fontawesome-solid-download:](https://soft-issue.com/vku2-version/setups/propars-setup.exe){ .md-button .md-button--primary .donwload-setup-button }
+
+<div class="donwload-setup-warning" style="visibility: hidden" markdown>
+
+!!! failure "Установить PROPARS возможно только для OC Windows. Откройте эту страницу с компьютера под управлением ОС Windows, чтобы увидеть кнопку для скачивания установщика."
+---
+
+</div>
 
 ??? question "Что делать, если не запускается установщик?"
     <div style="text-align: justify">
