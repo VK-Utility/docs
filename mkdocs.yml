@@ -3,12 +3,13 @@ site_description: >-
   Бесплатный многофункциональный парсер ВКонтакте.
   Найдите свою целевую аудиторию в считанные минуты.
 site_url: https://pro-pars.ru
-copyright: ""
+copyright: "PROPARS © 2024"
 
 theme:
   name: material
   custom_dir: docs/overrides
   favicon: assets/logo.png
+  logo: assets/logow.png
   palette:
       primary: custom      
   font:
@@ -83,7 +84,7 @@ markdown_extensions:
   - pymdownx.critic
 
 extra:
-  generator: true
+  generator: false
   social:
     - icon: fontawesome/brands/vk
       link: https://vk.com/propars
