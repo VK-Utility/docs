@@ -34,6 +34,7 @@ plugins:
       cards_layout_options:
         background_color: "#6389A8"
   - glightbox
+  - blog
 
 nav:
   - Главная: index.md
@@ -60,6 +61,8 @@ nav:
     - Фильтратор:
       - docs/filtrator/index.md
       - Запуск Фильтратора: docs/filtrator/launch.md
+  - История обновлений: 
+    - blog/index.md
   - Связаться с нами: support.md
     
 
