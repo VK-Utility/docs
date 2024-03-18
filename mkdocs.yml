@@ -72,6 +72,7 @@ markdown_extensions:
   - footnotes
   - md_in_html
   - tables
+  - def_list
   # - toc:
   #     permalink: '^'
   #     #slugify: !!python/object/apply:pymdownx.slugs.slugify
