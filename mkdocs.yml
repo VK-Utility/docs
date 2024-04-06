@@ -33,6 +33,7 @@ plugins:
   - social:
       cards_layout_options:
         background_color: "#6389A8"
+      enabled: !ENV [CI, false]
   - glightbox
   - blog
 
