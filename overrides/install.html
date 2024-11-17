@@ -1,0 +1,26 @@
+{% extends "base_metrica.html" %}
+
+{% block extrahead %}
+<script text="javascript" defer>
+  function isOsWin() {
+    const win = ['Win32', 'Win64', 'Windows', 'WinCE'];
+    var platform = window.navigator?.userAgentData?.platform || window.navigator.platform;
+    return win.indexOf(platform) != -1;
+  }
+
+  document.addEventListener('DOMContentLoaded', function(){
+    if (isOsWin()) {
+      for(var element of document.getElementsByClassName('donwload-setup-warning')) {
+        element.remove();
+      }
+    } else {
+      for(var element of document.getElementsByClassName('donwload-setup-warning')) {
+        element.style.visibility = 'visible';
+      }
+      for(var element of document.getElementsByClassName('donwload-setup-button')) {
+        element.remove();
+      }
+    }
+	});
+</script>
+{% endblock %}
