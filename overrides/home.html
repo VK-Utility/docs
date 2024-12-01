@@ -1,0 +1,63 @@
+{% extends "main.html" %}
+
+{% block extrahead %}
+{{ super() }}
+{% endblock %}
+
+
+{% block tabs %}
+{{ super() }}
+<style>
+  .md-header { position: initial }
+  .md-main__inner { margin: 0 unset; margin-top: 0; padding-top: 0;}
+  @media screen and (min-width:60em) { .md-sidebar--secondary { display: none } }
+  @media screen and (min-width:76.25em) { .md-sidebar--primary { display: none } }
+
+  
+  * {
+    scroll-behavior: smooth;
+  }
+
+  .md-main h1 {
+    font-size: 1.7em;
+    color: var(--md-default-fg-color);
+  }
+
+  .md-main p {
+    font-size: 1.4em;
+    font-weight: 300;
+    line-height: 1.3;
+  }
+
+  .md-main h1 code {
+    color: #4181E2;
+    background-color: #4181E220;
+  }
+</style>
+
+<section class="mdx-container">
+  <div class="md-grid md-typeset">
+    <div class="mdx-hero">
+      <div class="mdx-hero__image">
+        <img src="assets/images/illustration.png" alt="" width="1659" height="1200" draggable="false">
+      </div>
+      <div class="mdx-hero__content">
+        <h1>Многофункциональный парсер ВКонтакте</h1>
+        <p>Бесплатный инструмент для поиска, сбора и анализа целевой аудитории</p>
+        <a href="../setup-and-launch/install" title="Начать пользоваться"
+          class="md-button md-button--primary">
+          Начать пользоваться
+        </a>
+        <a href="#main" title="Узнать больше" class="md-button">
+          Узнать больше
+        </a>
+      </div>
+    </div>
+</section>
+
+{% endblock %}
+
+<!-- Content -->
+{% block content %}
+{{ super() }}
+{% endblock %}
