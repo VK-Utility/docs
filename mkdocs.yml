@@ -24,7 +24,6 @@ theme:
     - navigation.sections
     - toc.follow
     - header.autohide
-    - announce.dismiss
     - search.share
     - content.code.copy
   

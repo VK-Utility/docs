@@ -14,9 +14,18 @@ template: install.html
   </p>
 </div>
 
-[Скачать установщик PROPARS :fontawesome-solid-download:](https://soft-issue.com/vku2-version/setups/propars-setup.exe){ .md-button .md-button--primary .donwload-setup-button }
 
-<div class="donwload-setup-warning" style="visibility: hidden" markdown>
+<div class="donwload-setup-warning" markdown>
+
+!!! warning "PROPARS больше недоступен для скачивания."
+    Не знаю, изменится ли это в будущем. Спасибо всем, кто был с нами.
+
+    У вас остались вопросы? [Свяжитесь с нами!](../../support)
+---
+
+</div>
+
+<div class="donwload-setup-failure" style="visibility: hidden" markdown>
 
 !!! failure "Установить PROPARS возможно только для OC Windows. Откройте эту страницу с компьютера под управлением ОС Windows, чтобы увидеть кнопку для скачивания установщика."
 ---

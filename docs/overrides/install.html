@@ -1,4 +1,4 @@
-{% extends "base_metrica.html" %}
+{% extends "main.html" %}
 
 {% block extrahead %}
 <script text="javascript" defer>
@@ -10,14 +10,14 @@
 
   document.addEventListener('DOMContentLoaded', function(){
     if (isOsWin()) {
-      for(var element of document.getElementsByClassName('donwload-setup-warning')) {
+      for(var element of document.getElementsByClassName('donwload-setup-failure')) {
         element.remove();
       }
     } else {
-      for(var element of document.getElementsByClassName('donwload-setup-warning')) {
+      for(var element of document.getElementsByClassName('donwload-setup-failure')) {
         element.style.visibility = 'visible';
       }
-      for(var element of document.getElementsByClassName('donwload-setup-button')) {
+      for(var element of document.getElementsByClassName('donwload-setup-warning')) {
         element.remove();
       }
     }
