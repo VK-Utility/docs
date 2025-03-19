@@ -3,7 +3,7 @@ site_description: >-
   Бесплатный многофункциональный парсер ВКонтакте.
   Найдите свою целевую аудиторию в считанные минуты.
 site_url: https://pro-pars.ru
-copyright: "PROPARS © 2024"
+copyright: "PROPARS © 2024 - 2025"
 
 theme:
   name: material
@@ -11,12 +11,12 @@ theme:
   favicon: assets/logo.png
   logo: assets/logow.png
   palette:
-      primary: custom      
+      primary: custom
   font:
     text: Roboto
   language: ru
   features:
-    - navigation.tabs    
+    - navigation.tabs
     - navigation.tracking
     - navigation.top
     - navigation.footer
@@ -24,6 +24,7 @@ theme:
     - navigation.sections
     - toc.follow
     - header.autohide
+    - announce.dismiss
     - search.share
     - content.code.copy
   
