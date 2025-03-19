@@ -3,7 +3,7 @@ site_description: >-
   Бесплатный многофункциональный парсер ВКонтакте.
   Найдите свою целевую аудиторию в считанные минуты.
 site_url: https://pro-pars.ru
-copyright: "PROPARS © 2024 - 2025"
+copyright: "PROPARS © 2024 — 2025"
 
 theme:
   name: material
